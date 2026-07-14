@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { siteData } from "../data/siteData";
+import { MdArrowOutward } from "react-icons/md";
 
 gsap.registerPlugin(useGSAP);
 
@@ -67,10 +68,22 @@ const Work = () => {
                 </div>
                 <h4>Tools and features</h4>
                 <p>{project.stack}</p>
+                {project.link && (
+                  <a
+                    className="work-live-link"
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-cursor={"disable"}
+                  >
+                    Live <MdArrowOutward />
+                  </a>
+                )}
               </div>
               <WorkImage
                 image={project.image || "/images/placeholder.webp"}
                 alt={project.name}
+                link={project.link}
               />
             </div>
           ))}

@@ -103,36 +103,44 @@ export const siteData = {
       stack:
         "Python, FastAPI, SQLite, React, TypeScript, Tailwind CSS, JWT Auth, REST API, Git/GitHub",
       image: "/images/BBshowcase.png",
+      link: "https://blurbit-ai.onrender.com/",
+    },
+    {
+      name: "BlurBito",
+      category: "Digital experience agency website",
+      stack: "React, Next.js, Tailwind CSS, Figma, Framer, GSAP, SEO-ready",
+      image: "/images/blurbito-showcase.png",
+      link: "https://www.blurbito.com/",
+    },
+    {
+      name: "Attendix",
+      category: "Smart Attendance Portal",
+      stack:
+        "React, TypeScript, Tailwind CSS, QR check-in, Face ID attendance, analytics dashboard, reports",
+      image: "/images/attendix-showcase.png",
+      link: "https://attendixsap.vercel.app/",
+    },
+    {
+      name: "Parashy Cafe",
+      category: "Premium cafe and cake ordering website",
+      stack:
+        "Next.js, TypeScript, Tailwind CSS, responsive UI, table booking, cake ordering",
+      image: "/images/parashy-cafe-showcase.png",
+      link: "https://www.parashycafe.in/",
     },
     {
       name: "Coming Soon",
       category: "",
       stack: "In progress",
       image: "/images/placeholder.webp",
+      link: "",
     },
     {
       name: "Coming Soon",
       category: "",
       stack: "In progress",
       image: "/images/placeholder.webp",
-    },
-    {
-      name: "Coming Soon",
-      category: "",
-      stack: "In progress",
-      image: "/images/placeholder.webp",
-    },
-    {
-      name: "Coming Soon",
-      category: "",
-      stack: "In progress",
-      image: "/images/placeholder.webp",
-    },
-    {
-      name: "Coming Soon",
-      category: "",
-      stack: "In progress",
-      image: "/images/placeholder.webp",
+      link: "",
     },
   ],
 };
